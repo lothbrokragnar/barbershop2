@@ -1,0 +1,55 @@
+li.active a{
+    color:$color__spanish_pink!important;
+}
+
+.navbar{
+    background-color: $color__eerie_black;
+}
+
+.navbar-nav li a{
+    color:$color__white;
+}
+
+.navbar-brand{
+    width: 100px;
+    height: auto;
+}
+
+
+.page-item.active{
+    .page-link{
+        background-color: $color__raisin_black;
+    }
+}
+
+.page-item:first-child{
+    .page-link{
+        border-top-left-radius: 18px;
+        border-bottom-left-radius: 18px;
+    }
+}
+.page-item:last-child{
+    .page-link{
+
+        border-bottom-right-radius: 18px;
+        border-top-right-radius: 18px;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {  }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {  }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {  }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    .page-item.active{
+        .page-link{
+            background-color: $color__nickel;
+        }
+    }
+  }

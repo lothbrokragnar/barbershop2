@@ -1,0 +1,13 @@
+.group__botones .btn-secondary-custom{
+    background-color: $color__nickel;
+}
+
+.group__botones .btn-secondary-custom:hover{
+    background-color:$color__light_gray;
+    border-color:$color__light_gray;
+}
+
+.group__botones .btn-secondary-custom:focus{
+    border-color:$color__light_gray;
+    background-color:$color__nickel;
+}

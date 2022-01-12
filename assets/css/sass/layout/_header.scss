@@ -1,0 +1,21 @@
+
+
+header{
+    @include mi__centrar;
+    width:auto;
+    height: 100vh;
+    background-image: url("../img/post-image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.header__tittle{
+    color:$color__white;
+    font-family: 'Playfair Display', serif;
+    font-size:60px;
+    font-style:italic;
+    font-weight:900;
+    text-align:center;
+  }
